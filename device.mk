@@ -16,6 +16,7 @@
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/motorola/titan/titan-vendor.mk)
+PRODUCT_BOARD_PLATFORM := msm8226
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
